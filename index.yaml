@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  helm-chart-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-07-24T07:58:44.324339805Z"
+    description: A Helm chart for Kubernetes
+    digest: 06aacc5b2a5284cc2b6cfdefd883ca89be909c34ba164ccc902cb629d7f76877
+    name: helm-chart-test
+    type: application
+    urls:
+    - https://github.com/shaijuseb/helm-chart/helm-chart-test-0.1.0.tgz
+    version: 0.1.0
   myapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-24T07:51:17.398187389Z"
+    created: "2023-07-24T07:58:44.324952782Z"
     description: A Helm chart for Kubernetes
     digest: cc34d145dd4deb468d05163de7e3c27edadda280847d04d4bc439c5bd5060f9e
     name: myapp
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://github.com/shaijuseb/helm-chart/myapp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-24T07:51:17.397263524Z"
+generated: "2023-07-24T07:58:44.323380019Z"
